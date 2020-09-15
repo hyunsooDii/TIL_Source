@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled {background: blue;} /* 사용 가능한 textbox에 적용*/
+
+        input:disabled {background: gray;} /* 사용 불가능한 textbox에 적용*/
+
+        input:focus {background: orange;} /* focusing된 textbox에 적용*/
+    </style>
+</head>
+<body>
+    <h2>사용 가능</h2>
+    <input type="text"/>
+    <h2>사용 불가능</h2>
+    <input type="text" disabled="disabled"/>
+</body>
+</html>

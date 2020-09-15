@@ -1,0 +1,23 @@
+{% extends "base2.html" %}
+
+{% block title %}post_search.html{% endblock %}
+
+{% block content %}
+
+    <h1>Blog Search</h1>
+    <br>
+
+    <form action="." method="post">{% csrf_token %} {# .은 현재디렉터리#}
+        {{ form.as_table }} {# 테이블이 자동으로 채워짐 #}
+        <input type="submit" value="Submit" class="btn btn-primary btn-sm">
+    </form>
+
+    {% if object_list %}
+
+    {% include "post_get_url.html" %}
+
+    {% elif search_term %}
+    <b><i>Search Word({{ search_term }}) Not Found </i></b>
+    {% endif %}
+
+{% endblock %}

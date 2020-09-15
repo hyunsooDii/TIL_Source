@@ -1,0 +1,21 @@
+{% extends "base2.html" %}
+
+{% block title %}bookmark_detail.html{% endblock %}
+
+{% block content %}
+
+<div>
+    <h1>Bookmark List</h1>
+    <div>
+    <h1>{{bookmark.title}}</h1>
+    작성자 = {{bookmark.owner}}
+    <ul>
+        {# 템플릿 주석 #}
+        <li>URL : <a href="{{bookmark.url}}" target="_blank">{{bookmark.url}}</a></li>
+    </ul>
+    </div>
+    <a href="{% url 'bookmark:index'%}">목록으로</a>
+
+</div>
+
+{% endblock %}
