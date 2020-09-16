@@ -3,8 +3,8 @@
 #include <SimpleTimer.h>
 #include <Button.h>
 
-AnalogSeneor jX(A0, 0, 1023);
-AnalogSeneor jY(A1, 0, 1023);
+AnalogSensor jX(A0, 0, 1023);
+AnalogSensor jY(A1, 0, 1023);
 Button btn(2);
 
 
