@@ -1,5 +1,5 @@
 {
     "port": "COM3",
     "board": "arduino:avr:uno",
-    "sketch": "통신\\ex04_esp\\app.ino"
+    "sketch": "센서\\digital_temp\\app.ino"
 }

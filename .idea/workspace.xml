@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83b3dbd3-5648-4194-9636-a42ba7beddc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/arduino/.vscode/arduino.json" beforeDir="false" afterPath="$PROJECT_DIR$/arduino/.vscode/arduino.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/arduino/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino/디지털센서/ex01_ultra/Pulse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino/디지털센서/ex01_ultra/Pulse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino/디지털센서/ex01_ultra/Ultra.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino/디지털센서/ex01_ultra/Ultra.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hg42m33yEYL0FvoalAiXjmiUZK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83b3dbd3-5648-4194-9636-a42ba7beddc4" name="Default Changelist" comment="" />
+      <created>1600419199081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600419199081</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
