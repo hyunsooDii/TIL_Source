@@ -6,6 +6,7 @@
 - mariadb - SQL문 , ERD 작성법 학습
 - python - 기본 문법 학습
 - webclient - bt4, html, css javascript 등 Front-End 학습
+- raspberrypi - 라즈베리파이를 사용한 IoT 제어 학습
 
 
 
