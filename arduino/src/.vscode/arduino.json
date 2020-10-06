@@ -1,5 +1,6 @@
 {
-    "port": "COM3",
-    "board": "arduino:avr:uno",
-    "sketch": "ex03\\app.ino"
+    "port": "COM4",
+    "board": "arduino:avr:pro",
+    "sketch": "ex04/app.ino",
+    "configuration": "cpu=16MHzatmega328"
 }
