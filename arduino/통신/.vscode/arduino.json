@@ -1,0 +1,5 @@
+{
+    "port": "COM3",
+    "board": "arduino:avr:uno",
+    "sketch": "esp_ex04_mqtt_test\\app.ino"
+}
