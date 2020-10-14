@@ -6,7 +6,7 @@ class USBCam:
         self.show = show
         self.framerate = framerate
 
-        self.cap = cv2.VideoCapture(1) # 1번 카메라
+        self.cap = cv2.VideoCapture(0) # 0번 카메라
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,self.size[0])
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.size[1])
 
@@ -30,4 +30,3 @@ class MJpegStreamCam(USBCam):
                 b'Content-Length: ' + f"{len(jpg)}".encode()+b'\n'
                 b'\n' + jpg.tobytes() + b'\n'
             )
-        
