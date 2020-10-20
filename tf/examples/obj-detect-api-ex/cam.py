@@ -16,7 +16,7 @@ class USBCam:
     #         yield frame
 
     def run(self, callback):
-        self.cap = cv2.VideoCapture("http://192.168.0.21:8000/mjpeg/stream/") # 0번 카메라
+        self.cap = cv2.VideoCapture(2) # 0번 카메라
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.size[0])
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.size[1])
 

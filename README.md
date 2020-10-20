@@ -24,6 +24,8 @@
 
 - webclient - bt4, html, css javascript 등 Front-End 학습
 
+- kotlin - kotlin기본 문법 및 Android 활용
+
   
 
 
